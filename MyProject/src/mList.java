@@ -92,4 +92,7 @@ public class mList {
         }
         return response;
     }
+    public void delete(String delfname) {
+        Node temp = head;
+        if (head != null) {
 }
