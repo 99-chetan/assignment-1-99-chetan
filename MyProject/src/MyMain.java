@@ -62,4 +62,9 @@ public class MyMain {
                     String delfname=sc.nextLine();
                     obj.delete(delfname);
                     break;
+                default:
+                    System.out.println("!!!! Wrong choice !!!!");
+                    System.out.println("Enter correct choice ------------>");
+
+            }
 }
