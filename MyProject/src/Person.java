@@ -18,4 +18,7 @@ public class Person {
     public String[] getConNumber(){
         return  conNumber;
     }
+    public void setEmail(String email){
+        this.email=email;
+    }
 }
