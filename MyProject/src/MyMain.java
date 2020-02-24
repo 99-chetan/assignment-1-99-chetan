@@ -36,4 +36,9 @@ public class MyMain {
                     //sc.nextLine();
                     System.out.print("Would you like to add email address? (y/n): ");
                     w=sc.nextLine();
+                    if(!(w.equals("n"))) {
+                        System.out.print("Email Address: ");
+                        String em = sc.nextLine();
+                        person.setEmail(em);
+                    }
 }
