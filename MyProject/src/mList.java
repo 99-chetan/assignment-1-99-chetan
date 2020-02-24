@@ -23,4 +23,7 @@ public class mList {
         System.out.println("---Here are all your contacts---");
         System.out.println("-------- * -------- * -------- * --------");
         Node temp=head;
+        if(head!=null) {
+            while (temp != null) {
+                Person e = temp.getData();
 }
