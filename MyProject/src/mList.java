@@ -117,5 +117,9 @@ public class mList {
                 }
             } else {
                 Person tempu = head.getData();
+                if (tempu.getFname().equals(delfname)) {
+                    head = null;
+                    System.out.println(delfname + "'s contact deleted from list");
+                }
                 }
 }
