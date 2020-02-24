@@ -5,4 +5,7 @@ public class Node {
         this.data=data;
         next=null;
     }
+    public Person getData() {
+        return data;
+    }
 }
