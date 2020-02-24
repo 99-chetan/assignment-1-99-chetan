@@ -57,4 +57,7 @@ public class mList {
         if(head!=null) {
             while (temp != null) {
                 Person temp1 = temp.getData();
+                if (temp1.getFname().equals(fname)) {
+                    response = true;
+                    System.out.println("1 match found!");
 }
