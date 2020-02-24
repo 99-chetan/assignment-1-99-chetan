@@ -21,4 +21,6 @@ public class mList {
     }
     public void printList(){
         System.out.println("---Here are all your contacts---");
+        System.out.println("-------- * -------- * -------- * --------");
+        Node temp=head;
 }
