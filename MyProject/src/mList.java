@@ -95,4 +95,10 @@ public class mList {
     public void delete(String delfname) {
         Node temp = head;
         if (head != null) {
+            if(head.getData().getFname().equals(delfname)){
+                head=head.getNext();
+                temp=head;
+                System.out.println(delfname + "'s contact deleted from list");
+            }
+        }
 }
