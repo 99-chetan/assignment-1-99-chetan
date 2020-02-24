@@ -77,4 +77,9 @@ public class mList {
                     if (temp1.getEmail() != null) {
                         System.out.println("Email address: " + temp1.getEmail());
                     }
+                    temp = temp.getNext();
+                    System.out.println("-------- * -------- * -------- * --------");
+                    response = true;
+                    break;
+                }
 }
