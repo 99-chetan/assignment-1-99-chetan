@@ -82,4 +82,7 @@ public class mList {
                     response = true;
                     break;
                 }
+                temp = temp.getNext();
+            }
+        }
 }
