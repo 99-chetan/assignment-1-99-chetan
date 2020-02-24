@@ -50,4 +50,9 @@ public class MyMain {
                     //sc.nextLine();
                     System.out.print("Please enter first name: ");
                     String name=sc.nextLine();
+                    boolean res=obj.search(name);
+                    if(!(res)){
+                        System.out.println("0 match found");
+                    }
+                    break;
 }
