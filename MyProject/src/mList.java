@@ -103,5 +103,11 @@ public class mList {
             else if (head.getNext() != null){
                 while (temp != null) {
                     Person temp1 = temp.getData();
+                    if (temp.getNext().getData().getFname().equals(delfname) && temp.getNext()!=null) {
+                        Node temp7 = temp.getNext().getNext();
+                        temp.setNext(temp7);
+                        System.out.println(delfname + "'s contact deleted from list");
+                        break;
+                    }
                 }
 }
