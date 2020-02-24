@@ -7,4 +7,9 @@ public class Person {
     public Person(String fname,String lname){
         this.fname=fname;
         this.lname=lname;
+        email=null;
+        conNumber= new String[10];
+        headC=0;
+
+    }
 }
