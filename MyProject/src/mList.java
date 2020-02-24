@@ -26,4 +26,8 @@ public class mList {
         if(head!=null) {
             while (temp != null) {
                 Person e = temp.getData();
+                System.out.println("First Name: " + e.getFname());
+                System.out.println("Last Name: " + e.getLname());
+                System.out.print("Contact Number(s): ");
+                String[] no = e.getConNumber();
 }
