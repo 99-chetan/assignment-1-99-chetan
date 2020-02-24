@@ -65,4 +65,7 @@ public class mList {
                     System.out.println("Last Name: " + temp1.getLname());
                     System.out.print("Contact Number(s): ");
                     String[] no = temp1.getConNumber();
+                    for (int i = 0; i < no.length; i++) {
+                        if (no[i] != null) {
+                            System.out.print(no[i]);
 }
