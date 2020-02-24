@@ -60,4 +60,9 @@ public class mList {
                 if (temp1.getFname().equals(fname)) {
                     response = true;
                     System.out.println("1 match found!");
+                    System.out.println("-------- * -------- * -------- * --------");
+                    System.out.println("First Name: " + temp1.getFname());
+                    System.out.println("Last Name: " + temp1.getLname());
+                    System.out.print("Contact Number(s): ");
+                    String[] no = temp1.getConNumber();
 }
