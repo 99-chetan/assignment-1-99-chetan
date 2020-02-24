@@ -3,4 +3,7 @@ public class mList {
     public mList(){
         head=null;
     }
+    public Node getHead(){
+        return head;
+    }
 }
