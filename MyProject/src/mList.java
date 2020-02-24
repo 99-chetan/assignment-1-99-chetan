@@ -8,4 +8,7 @@ public class mList {
     }
     public void insert(Person p){
         Node node=new Node(p);
+        if(head==null){
+            head=node;
+        }
 }
