@@ -19,4 +19,9 @@ public class MyMain {
                     System.out.print("First Name: ");
                     String fname=sc.nextLine();
                     System.out.print("Last Name: ");
+                    String lname=sc.nextLine();
+                    Person person=new Person(fname,lname);
+                    System.out.print("Contact Number: ");
+                    String con=sc.nextLine();
+                    person.setConNumber(con);
 }
