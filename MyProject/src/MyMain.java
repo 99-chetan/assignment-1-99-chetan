@@ -14,4 +14,9 @@ public class MyMain {
         while (s!=5){
             switch (s){
                 case 1:
+                    System.out.println("You have chosen to add a new contact:");
+                    System.out.println("Please enter the name of the Person");
+                    System.out.print("First Name: ");
+                    String fname=sc.nextLine();
+                    System.out.print("Last Name: ");
 }
