@@ -19,4 +19,6 @@ public class mList {
             temp.setNext(node);
         }
     }
+    public void printList(){
+        System.out.println("---Here are all your contacts---");
 }
