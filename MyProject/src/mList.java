@@ -38,4 +38,8 @@ public class mList {
                         }
                     }
                 }
+                System.out.println();
+                if (e.getEmail() != null) {
+                    System.out.println("Email address: " + e.getEmail());
+                }
 }
