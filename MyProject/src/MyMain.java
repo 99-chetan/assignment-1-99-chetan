@@ -55,4 +55,11 @@ public class MyMain {
                         System.out.println("0 match found");
                     }
                     break;
+                case 4:
+                    System.out.println("Here are all your contacts: ");
+                    obj.printList();
+                    System.out.print("Please enter first name whose contact you want to delete: ");
+                    String delfname=sc.nextLine();
+                    obj.delete(delfname);
+                    break;
 }
