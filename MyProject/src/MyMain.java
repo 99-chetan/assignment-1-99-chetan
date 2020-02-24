@@ -41,4 +41,9 @@ public class MyMain {
                         String em = sc.nextLine();
                         person.setEmail(em);
                     }
+                    obj.insert(person);
+                    break;
+                case 2:
+                    obj.printList();
+                    break;
 }
