@@ -16,4 +16,7 @@ public class mList {
             while(temp.getNext()!=null){
                 temp=temp.getNext();
             }
+            temp.setNext(node);
+        }
+    }
 }
