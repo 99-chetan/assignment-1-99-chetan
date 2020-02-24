@@ -123,5 +123,10 @@ public class mList {
                 }
             }
         }
+        else{
+            System.out.println("-------- * -------- * -------- * --------");
+            System.out.println("|| Contact List is Empty ||");
+            System.out.println("-------- * -------- * -------- * --------");
+        }
                 }
 }
