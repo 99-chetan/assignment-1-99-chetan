@@ -10,6 +10,9 @@ public class Person {
         email=null;
         conNumber= new String[10];
         headC=0;
-
+    }
+    public void setConNumber(String i){
+        this.conNumber[headC]=i;
+        headC++;
     }
 }
