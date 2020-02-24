@@ -121,5 +121,7 @@ public class mList {
                     head = null;
                     System.out.println(delfname + "'s contact deleted from list");
                 }
+            }
+        }
                 }
 }
