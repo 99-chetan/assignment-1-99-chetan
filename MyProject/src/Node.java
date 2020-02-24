@@ -8,4 +8,7 @@ public class Node {
     public Person getData() {
         return data;
     }
+    public void setData(Person data) {
+        this.data = data;
+    }
 }
