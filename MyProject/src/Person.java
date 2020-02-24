@@ -24,4 +24,7 @@ public class Person {
     public String getEmail(){
         return email;
     }
+    public String getFname() {
+        return fname;
+    }
 }
