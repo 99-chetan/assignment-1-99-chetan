@@ -42,4 +42,8 @@ public class mList {
                 if (e.getEmail() != null) {
                     System.out.println("Email address: " + e.getEmail());
                 }
+                System.out.println("-------- * -------- * -------- * --------");
+                temp = temp.getNext();
+            }
+        }
 }
