@@ -109,5 +109,9 @@ public class mList {
                         System.out.println(delfname + "'s contact deleted from list");
                         break;
                     }
+                    else if(temp.getNext().getData().getFname().equals(delfname)&& temp.getNext().getNext()==null){
+                        temp.setNext(null);
+                        break;
+                    }
                 }
 }
