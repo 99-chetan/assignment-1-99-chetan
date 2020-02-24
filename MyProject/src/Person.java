@@ -15,4 +15,7 @@ public class Person {
         this.conNumber[headC]=i;
         headC++;
     }
+    public String[] getConNumber(){
+        return  conNumber;
+    }
 }
