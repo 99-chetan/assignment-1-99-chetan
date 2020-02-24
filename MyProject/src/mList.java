@@ -6,4 +6,6 @@ public class mList {
     public Node getHead(){
         return head;
     }
+    public void insert(Person p){
+        Node node=new Node(p);
 }
