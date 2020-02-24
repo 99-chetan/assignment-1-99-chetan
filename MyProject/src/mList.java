@@ -113,5 +113,7 @@ public class mList {
                         temp.setNext(null);
                         break;
                     }
+                    temp = temp.getNext();
+                }
                 }
 }
