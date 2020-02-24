@@ -100,5 +100,8 @@ public class mList {
                 temp=head;
                 System.out.println(delfname + "'s contact deleted from list");
             }
-        }
+            else if (head.getNext() != null){
+                while (temp != null) {
+                    Person temp1 = temp.getData();
+                }
 }
