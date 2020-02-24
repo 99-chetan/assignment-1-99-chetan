@@ -54,4 +54,7 @@ public class mList {
     public boolean search(String fname) {
         boolean response = false;
         Node temp = head;
+        if(head!=null) {
+            while (temp != null) {
+                Person temp1 = temp.getData();
 }
