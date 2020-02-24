@@ -33,4 +33,9 @@ public class mList {
                 for (int i = 0; i < no.length; i++) {
                     if (no[i] != null) {
                         System.out.print(no[i]);
+                        if (no[i + 1] != null) {
+                            System.out.print(", ");
+                        }
+                    }
+                }
 }
