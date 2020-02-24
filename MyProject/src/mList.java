@@ -51,4 +51,7 @@ public class mList {
             System.out.println("-------- * -------- * -------- * --------");
         }
     }
+    public boolean search(String fname) {
+        boolean response = false;
+        Node temp = head;
 }
