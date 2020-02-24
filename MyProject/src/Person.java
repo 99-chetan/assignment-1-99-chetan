@@ -27,4 +27,7 @@ public class Person {
     public String getFname() {
         return fname;
     }
+    public String getLname() {
+        return lname;
+    }
 }
