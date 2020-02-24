@@ -46,4 +46,9 @@ public class mList {
                 temp = temp.getNext();
             }
         }
+        else{
+            System.out.println("|| Contact List is Empty ||");
+            System.out.println("-------- * -------- * -------- * --------");
+        }
+    }
 }
