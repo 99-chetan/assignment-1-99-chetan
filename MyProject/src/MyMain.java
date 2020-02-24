@@ -34,4 +34,6 @@ public class MyMain {
                         w = sc.nextLine();
                     }
                     //sc.nextLine();
+                    System.out.print("Would you like to add email address? (y/n): ");
+                    w=sc.nextLine();
 }
