@@ -115,5 +115,7 @@ public class mList {
                     }
                     temp = temp.getNext();
                 }
+            } else {
+                Person tempu = head.getData();
                 }
 }
