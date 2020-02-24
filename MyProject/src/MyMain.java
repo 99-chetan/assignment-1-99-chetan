@@ -1,32 +1,34 @@
+import Person.Person;
+import mList.mList;
 import java.util.Scanner;
 public class MyMain {
     public static void main(String[] args) {
-        mList obj=new mList();
-        Scanner sc =new Scanner(System.in);
+        mList obj = new mList();
+        Scanner sc = new Scanner(System.in);
         System.out.println("Welcome to DBC's Contact List App");
         System.out.println("Press 1 to add a new contact");
         System.out.println("Press 2 to view all contacts");
         System.out.println("Press 3 to search for a contact");
         System.out.println("Press 4 to delete a contact");
         System.out.print("Press 5 to exi program:-    ");
-        int s=sc.nextInt();
+        int s = sc.nextInt();
         sc.nextLine();
-        while (s!=5){
-            switch (s){
+        while (s != 5) {
+            switch (s) {
                 case 1:
                     System.out.println("You have chosen to add a new contact:");
                     System.out.println("Please enter the name of the Person");
                     System.out.print("First Name: ");
-                    String fname=sc.nextLine();
+                    String fname = sc.nextLine();
                     System.out.print("Last Name: ");
-                    String lname=sc.nextLine();
-                    Person person=new Person(fname,lname);
+                    String lname = sc.nextLine();
+                    Person person = new Person(fname, lname);
                     System.out.print("Contact Number: ");
-                    String con=sc.nextLine();
+                    String con = sc.nextLine();
                     person.setConNumber(con);
                     System.out.print("Would you like to add another contact number? (y/n):");
-                    String w=sc.nextLine();
-                    while(!(w.equals("n"))) {
+                    String w = sc.nextLine();
+                    while (!(w.equals("n"))) {
                         System.out.print("Contact Number: ");
                         con = sc.nextLine();
                         person.setConNumber(con);
@@ -35,8 +37,8 @@ public class MyMain {
                     }
                     //sc.nextLine();
                     System.out.print("Would you like to add email address? (y/n): ");
-                    w=sc.nextLine();
-                    if(!(w.equals("n"))) {
+                    w = sc.nextLine();
+                    if (!(w.equals("n"))) {
                         System.out.print("Email Address: ");
                         String em = sc.nextLine();
                         person.setEmail(em);
@@ -49,9 +51,9 @@ public class MyMain {
                 case 3:
                     //sc.nextLine();
                     System.out.print("Please enter first name: ");
-                    String name=sc.nextLine();
-                    boolean res=obj.search(name);
-                    if(!(res)){
+                    String name = sc.nextLine();
+                    boolean res = obj.search(name);
+                    if (!(res)) {
                         System.out.println("0 match found");
                     }
                     break;
@@ -59,7 +61,7 @@ public class MyMain {
                     System.out.println("Here are all your contacts: ");
                     obj.printList();
                     System.out.print("Please enter first name whose contact you want to delete: ");
-                    String delfname=sc.nextLine();
+                    String delfname = sc.nextLine();
                     obj.delete(delfname);
                     break;
                 default:
@@ -72,6 +74,8 @@ public class MyMain {
             System.out.println("Press 3 to search for a contact");
             System.out.println("Press 4 to delete a contact");
             System.out.print("Press 5 to exit program:    ");
-            s=sc.nextInt();
+            s = sc.nextInt();
             sc.nextLine();
+        }
+    }
 }
