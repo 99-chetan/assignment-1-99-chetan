@@ -46,4 +46,8 @@ public class MyMain {
                 case 2:
                     obj.printList();
                     break;
+                case 3:
+                    //sc.nextLine();
+                    System.out.print("Please enter first name: ");
+                    String name=sc.nextLine();
 }
