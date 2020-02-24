@@ -26,4 +26,8 @@ public class MyMain {
                     person.setConNumber(con);
                     System.out.print("Would you like to add another contact number? (y/n):");
                     String w=sc.nextLine();
+                    while(!(w.equals("n"))) {
+                        System.out.print("Contact Number: ");
+                        con = sc.nextLine();
+                        person.setConNumber(con);
 }
